@@ -1,7 +1,6 @@
 /cache
 /characters
 /css
-/extensions
 /grammars
 /installer_files
 /logs
@@ -47,3 +46,7 @@ wandb
 /docker-compose.yml
 /Dockerfile
 .env
+/extensions/styletts2/models/epoch_2nd_00230.pth
+/extensions/styletts2/models/config_ft.yml
+/extensions/styletts2/refaudio/audio0004.wav
+/extensions/styletts2/refaudio/female_02.wav

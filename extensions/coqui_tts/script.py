@@ -131,6 +131,7 @@ def input_modifier(string, state):
     return string
 
 
+
 def output_modifier(string, state):
     if not params['activate']:
         return string
@@ -140,7 +141,7 @@ def output_modifier(string, state):
     if string == '':
         string = '*Empty reply, try regenerating*'
     else:
-        output_file = Path(f'extensions/coqui_tts/outputs/{state["character_menu"]}_{int(time.time())}.wav')
+        output_file = Path(f'extensions/styletts2/outputs/{state["character_menu"]}_{int(time.time())}.wav')
         model.tts_to_file(
             text=string,
             file_path=output_file,
