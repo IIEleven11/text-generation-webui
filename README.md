@@ -1,3 +1,7 @@
+# This fork is for the creation of a StyleTTS2 Text generation Web UI extension. 
+
+- Use your StyleTTS2 fine tuned modell as your AI's voice.
+
 # Text generation web UI
 
 A Gradio web UI for Large Language Models.
